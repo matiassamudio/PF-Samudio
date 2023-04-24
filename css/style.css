@@ -125,9 +125,10 @@
 
 
 .nav {
+    margin: auto;
     padding: 20px 20px;
     font-size: 1em;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -160,11 +161,14 @@
 
 
 form {
-    text-align: center;
+    text-align: left;
     padding: 20px;
-    font-size: 1.0em;
+    font-size: 1.5em;
     background: linear-gradient(to bottom left, #be946d 40%, #FFC39E 100%);
+
 }
+
+.textarea{text-align: center;}
 
 .footer {
 
@@ -204,3 +208,14 @@ footer a{
     }
 }
 
+
+@media (min-width: 40rem) {
+    form {
+        width: 50%;
+    }
+
+    .textarea{
+        margin-top: auto;
+        width: 50%;
+    }
+}
