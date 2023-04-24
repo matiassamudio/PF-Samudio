@@ -20,17 +20,19 @@
         font-size: 30px;
         font-weight: 400;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
 
     h2 {
         color: rgb(0, 0, 0);
-    
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     
     
     }
 
     p {
         color: #251c1c;
+        font-family: fantasy;
     }
     
     
@@ -39,6 +41,7 @@
     
     h3 {
         color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
     
     
     
@@ -157,13 +160,13 @@
 
 
 form {
-    text-align: right;
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
     font-size: 1.0em;
     background: linear-gradient(to bottom left, #be946d 40%, #FFC39E 100%);
 }
 
-footer {
+.footer {
 
 
     color: #838080;
@@ -172,7 +175,7 @@ footer {
     padding: 10px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
