@@ -1,0 +1,175 @@
+// Importación de fuentes de Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: #251c1c;
+    font-family: fantasy;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// Estilos de las tarjetas
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.cards_item {
+    margin: 10px;
+}
+
+.card {
+    width: 300px;
+    background-color: #d4a82da2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card_image {
+    overflow: hidden;
+}
+
+.card_image img {
+    width: 100%;
+    height: auto;
+}
+
+.card_content {
+    padding: 20px;
+}
+
+.card_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card_text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card_btn {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+// Estilos adicionales
+
+.main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Media queries
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+.nav {
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 1em;
+    text-align: left;
+
+    ul {
+        align-self: start;
+        text-align: auto;
+
+        li {
+            display: inline-block;
+
+            a {
+                align-items: center;
+            }
+        }
+    }
+}
+
+form {
+    text-align: left;
+    padding: 20px;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom left, #be946d 40%, #FFC39E 100%);
+}
+
+.textarea {
+    text-align: center;
+}
+
+.footer {
+    color: #838080;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+footer a {
+    color: rgb(36, 35, 34)
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pagina",
+  "version": "1.0.0",
+  "description": "creando scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "{"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiassamudio/PreEntrega2-github.git"
+  },
+  "author": "matiassamudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiassamudio/PreEntrega2-github/issues"
+  },
+  "homepage": "https://github.com/matiassamudio/PreEntrega2-github#readme"
+}
