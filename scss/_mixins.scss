@@ -1,0 +1,54 @@
+@mixin textos ($size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 2em;
+    padding: 50px;
+
+
+}
+
+@mixin historia ($size, $color, $paddingb) {
+
+    font-size: $size;
+    color: $color;
+    padding-bottom: $paddingb;
+}
+
+@mixin cosas {
+    color: map-get($map: $paleta, $key: 'cinco');
+    font-size: $textLg;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500px;
+    padding: 100px;
+    text-align: center;
+}
+
+
+@mixin bptitulos {
+    margin: -50px;
+    font-size: $textMd;
+}
+
+
+
+/* paleta de colores  */
+
+$paleta: (
+    'uno': white,
+    'dos': black,
+    'tres': turquoise,
+    'cuatro': rgb(232, 234, 225),
+    'cinco': chocolate,
+    'seis': magenta,
+    'siete': crimson,
+    'ocho': rgb(7, 7, 7),
+    'nueve': blue,
+    'diez': aqua,
+    'once': lightcoral,
+    'doce': rgba(255, 166, 0, 0.466),
+    'trece': #fff,
+    'catorce': aqua,
+    )

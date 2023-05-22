@@ -1,0 +1,165 @@
+@media (max-width: 400px) {
+
+
+  .contacto {
+    @include bptitulos;
+  }
+
+  .nosotros {
+    @include bptitulos;
+  }
+
+  .productos {
+    @include bptitulos
+  }
+
+  .tituloprincipal {
+    @include bptitulos
+  }
+
+  .nuestroslocales {
+    @include bptitulos
+  }
+
+
+  /* productos */
+  .tarjetaofertas {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .tarjetaofertas img {
+    width: 100%;
+  }
+
+  .tarjetaofertas .box {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+  .tarjeta {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .tarjeta img {
+    width: 100%;
+  }
+
+  .tarjeta .box {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+  /* footer */
+
+
+  .grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+
+
+    form {
+      width: 33%;
+      font-size: 0.8em;
+
+    }
+
+  }
+
+  .formulario {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 850px) and (min-width: 400px) {
+
+
+  .tarjeta {
+    width: 50%;
+    display: block;
+    margin: auto;
+
+  }
+
+  .tarjeta img {
+    width: 100%;
+  }
+
+  .tarjeta .box {
+    width: 100%;
+    margin-bottom: 5em;
+
+  }
+
+  /* ofertas */
+  .tarjetaofertas {
+    width: 50%;
+    display: block;
+    margin: auto;
+
+
+
+
+  }
+
+  .tarjetaofertas img {
+    width: 100%;
+  }
+
+  .tarjetaofertas .box {
+    width: 100%;
+    margin-bottom: 5em;
+
+  }
+}
+
+
+
+@media (min-width: 850px) {
+
+  .tarjeta {
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+
+
+
+  }
+
+  .tarjeta img {
+    width: 100%;
+  }
+
+  .tarjeta .box {
+    margin-bottom: 5em;
+  }
+
+  /* ofertas */
+
+  .tarjetaofertas {
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+
+
+
+  }
+
+  .tarjetaofertas img {
+    width: 100%;
+  }
+
+  .tarjetaofertas .box {
+    margin-bottom: 5em;
+  }
+
+}

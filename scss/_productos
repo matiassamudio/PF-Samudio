@@ -1,0 +1,98 @@
+/* tarjetas con nesting*/
+
+
+
+.tarjeta {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    gap: 40px;
+
+    .box {
+        width: 32%;
+        height: auto;
+        border: 1px solid #ccc;
+        margin-right: 1%;
+        background: map-get($map: $paleta, $key: 'uno');
+        border-radius: 30px;
+        transition: 0.9;
+        background-color: $productos;
+
+        p {
+            @include textos(1, rgb(3, 0, 9), 600);
+            padding: 0 5px;
+        }
+
+
+    }
+
+    .box:hover {
+        box-shadow: $boxshadow;
+        cursor: pointer;
+
+    }
+
+    .comprarahora {
+        background-color: $comprarahora;
+        font-weight: bold;
+        font-size: $textchiquito;
+        margin: 30px;
+        border-radius: 30px;
+
+    }
+
+
+}
+
+/* ofertas */
+
+.tarjetaofertas {
+    display: flex;
+    max-width: 60%;
+    height: auto;
+    margin: 20px auto;
+    gap: 50px;
+
+    .box {
+        width: 32%;
+        height: auto;
+        border: 1px solid #ccc;
+        margin-right: 1%;
+        background: map-get($map: $paleta, $key: 'uno');
+        border-radius: 30px;
+        transition: 0.9;
+        background-color: $productos;
+
+        p {
+            @include textos(1, rgb(3, 0, 9), 600);
+            padding: 0 5px;
+        }
+
+
+    }
+
+    .box:hover {
+        box-shadow: $boxshadow;
+        cursor: pointer;
+
+    }
+
+    .comprarahora {
+        background-color: $comprarahora;
+        font-weight: bold;
+        font-size: $textchiquito;
+        margin: 30px;
+        border-radius: 30px;
+
+    }
+}
+
+
+
+
+
+.margin {
+
+    margin: 200px;
+}

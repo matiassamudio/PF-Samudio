@@ -1,0 +1,222 @@
+/* global */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: $mainColor;
+
+
+}
+
+form {
+
+    font-size: $textSm;
+}
+
+footer {
+
+    background-color: map-get($map: $paleta, $key: 'catorce');
+
+}
+
+/* clases */
+
+
+.tituloprincipal {
+    color: map-get($map: $paleta, $key: 'cinco');
+    font-size: $textLg;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.introduccion {
+    color: map-get($map: $paleta, $key: 'seis');
+    font-size: $textMd;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    padding: 50px;
+    text-align: center;
+}
+
+.pdeintroduccion {
+    @include textos(2em, rgb(222, 10, 10), 900)
+}
+
+.promo {
+    color: map-get($map: $paleta, $key: 'ocho');
+    font-size: $textSlg;
+    font-weight: 400;
+    padding: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.productos {
+    @include cosas;
+}
+
+.nosotros {
+    @include cosas;
+}
+
+.nuestroslocales {
+    @include cosas;
+}
+
+.locales {
+    color: map-get($map: $paleta, $key: 'doce');
+    font-size: $textMd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contacto {
+    color: map-get($map: $paleta, $key: 'cinco');
+    font-size: $textLg;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500px;
+    padding: 100px;
+    text-align: center;
+}
+
+.chovai {
+    text-align: center;
+    font-size: $textMd;
+    color: map-get($map: $paleta, $key: 'nueve');
+    font-weight: 700;
+    background-color: rgb(185, 179, 168);
+
+
+}
+
+.icon {
+    text-decoration: none;
+    list-style: none;
+}
+
+.color {
+    color: rgb(255, 127, 127);
+}
+
+
+
+
+.text-left {
+    text-align: left;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.separacion {
+    padding: 300px;
+}
+
+
+.pdehistoria {
+    @include historia(3em, rgb(19, 1, 19), 400px);
+    text-align: left;
+
+}
+
+.parabajo {
+    padding-bottom: 500px;
+}
+
+.iconosdelfooter {
+    text-decoration: none;
+
+}
+
+.button404 {
+    border-radius: 20px;
+    color: rgb(36, 16, 16);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: $textSm;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: rgb(131, 136, 87);
+
+}
+
+.footertext {
+    padding-top: 100px;
+    text-align: left;
+    font-size: $textchiquito;
+    text-align: center;
+}
+
+.ayuda {
+
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.preguntas {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.arrepentimiento {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.listafooter {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.padding {
+    padding: 50px;
+}
+
+
+/* cosas de formulario */
+
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    border-radius: 3px;
+    color: #dc0a0a;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #2fff00;
+    border-radius: 10px;
+}
+
+input[type="reset"] {
+    background-color: #2fff00;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,73 @@
+/* navtop */
+
+.navtop {
+
+    font-size: $textSm;
+    font-family: sans-serif;
+
+
+
+
+}
+
+/* buscador de BS */
+
+.buscador {
+
+    button {
+        background-color: bisque;
+        color: brown;
+        border-color: black;
+    }
+
+    :hover {
+        background-color: rgb(109, 104, 166);
+        color: rgb(241, 14, 14);
+    }
+}
+
+
+
+/* navfooter */
+
+.navfooter {
+    text-align: center;
+    background-color: map-get($map: $paleta, $key: 'catorce');
+    font-size: 1em;
+    list-style-type: none;
+
+}
+
+/* boton de subir  */
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: map-get($map: $paleta, $key: 'doce');
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: map-get($map: $paleta, $key: 'trece');
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+
+}
+
+
+/* footer con grids */
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+
+.box2 {
+
+    text-align: center;
+
+}
