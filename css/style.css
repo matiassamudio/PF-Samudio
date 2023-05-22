@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: rgb(232, 234, 225);
+  background-color: rgb(255, 255, 255);
 }
 
 form {
@@ -18,12 +18,12 @@ form {
 }
 
 footer {
-  background-color: rgb(148, 104, 23);
+  background-color: rgb(218, 155, 39);
 }
 
 /* clases */
 .tituloprincipal {
-  color: rgb(148, 104, 23);
+  color: rgba(255, 166, 0, 0.466);
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
@@ -32,7 +32,7 @@ footer {
 }
 
 .introduccion {
-  color: rgb(148, 104, 23);
+  color: rgba(255, 166, 0, 0.541);
   font-size: 3em;
   font-family: "Roboto Serif", serif;
   font-weight: 400;
@@ -50,7 +50,7 @@ footer {
   padding: 50px;
 }
 
-.ofertas {
+.promo {
   color: rgb(7, 7, 7);
   font-size: 5em;
   font-weight: 400;
@@ -61,7 +61,7 @@ footer {
 }
 
 .productos {
-  color: chocolate;
+  color: rgba(255, 166, 0, 0.466);
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
@@ -69,13 +69,8 @@ footer {
   text-align: center;
 }
 
-.video {
-  width: 320px;
-  height: 240px;
-}
-
 .nosotros {
-  color: chocolate;
+  color: rgba(255, 166, 0, 0.466);
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
@@ -84,7 +79,7 @@ footer {
 }
 
 .nuestroslocales {
-  color: chocolate;
+  color: rgba(255, 166, 0, 0.466);
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
@@ -99,7 +94,7 @@ footer {
 }
 
 .contacto {
-  color: chocolate;
+  color: rgba(255, 166, 0, 0.466);
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
@@ -110,7 +105,7 @@ footer {
 .chovai {
   text-align: center;
   font-size: 3em;
-  color: rgb(200, 200, 231);
+  color: rgba(255, 166, 0, 0.466);
   font-weight: 700;
   background-color: rgb(185, 179, 168);
 }
@@ -121,7 +116,7 @@ footer {
 }
 
 .color {
-  color: rgb(148, 104, 23);
+  color: rgb(255, 127, 127);
 }
 
 .text-left {
@@ -137,7 +132,7 @@ footer {
 }
 
 .separacion {
-  padding: 100px;
+  padding: 300px;
 }
 
 .pdehistoria {
@@ -216,12 +211,12 @@ input[type=reset] {
 }
 
 input[type=submit] {
-  background-color: #a18129;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
 input[type=reset] {
-  background-color: #a18129;
+  background-color: #ffffff;
   margin-right: 10px;
 }
 
@@ -240,10 +235,9 @@ label {
 /* buscador de BS */
 .buscador button {
   background-color: bisque;
-  color: brown;
+  color: rgb(180, 159, 41);
   border-color: black;
 }
-
 .buscador :hover {
   background-color: rgb(109, 104, 166);
   color: rgb(241, 14, 14);
@@ -252,7 +246,7 @@ label {
 /* navfooter */
 .navfooter {
   text-align: center;
-  background-color: rgb(148, 104, 23);
+  background-color: rgb(218, 155, 39);
   font-size: 1em;
   list-style-type: none;
 }
@@ -289,9 +283,8 @@ label {
   max-width: 100%;
   height: auto;
   margin: 30px auto;
-  gap: 50px;
+  gap: 40px;
 }
-
 .tarjeta .box {
   width: 32%;
   height: auto;
@@ -300,9 +293,8 @@ label {
   background: white;
   border-radius: 30px;
   transition: 0.9;
-  background-color: rgb(126, 93, 22);
+  background-color: rgb(218, 155, 39);
 }
-
 .tarjeta .box p {
   font-size: 1;
   color: rgb(3, 0, 9);
@@ -313,17 +305,15 @@ label {
   padding: 50px;
   padding: 0 5px;
 }
-
 .tarjeta .box:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
   cursor: pointer;
 }
-
 .tarjeta .comprarahora {
-  background-color: rgb(148, 104, 23);
+  background-color: rgb(177, 165, 101);
   font-weight: bold;
   font-size: 1em;
-  margin: 20px;
+  margin: 30px;
   border-radius: 30px;
 }
 
@@ -332,10 +322,9 @@ label {
   display: flex;
   max-width: 60%;
   height: auto;
-  margin: 30px auto;
+  margin: 20px auto;
   gap: 50px;
 }
-
 .tarjetaofertas .box {
   width: 32%;
   height: auto;
@@ -344,9 +333,8 @@ label {
   background: white;
   border-radius: 30px;
   transition: 0.9;
-  background-color: rgb(148, 104, 23);
+  background-color: rgb(218, 155, 39);
 }
-
 .tarjetaofertas .box p {
   font-size: 1;
   color: rgb(3, 0, 9);
@@ -357,14 +345,12 @@ label {
   padding: 50px;
   padding: 0 5px;
 }
-
 .tarjetaofertas .box:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
   cursor: pointer;
 }
-
 .tarjetaofertas .comprarahora {
-  background-color: rgba(175, 129, 42, 0.644);
+  background-color: rgb(177, 165, 101);
   font-weight: bold;
   font-size: 1em;
   margin: 30px;
@@ -423,9 +409,10 @@ label {
   }
   /* footer */
   .grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8px;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
   }
   .grid form {
     width: 33%;
