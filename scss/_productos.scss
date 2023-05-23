@@ -18,7 +18,7 @@
         transition: 0.9;
         background-color: $productos;
 
-        p {
+        .p {
             @include textos(1, rgb(3, 0, 9), 600);
             padding: 0 5px;
         }
